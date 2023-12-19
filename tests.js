@@ -87,7 +87,7 @@ describe("Strings", () => {
 describe("Booleanos", () => {
    it("un booleano puede tomar dos valores", () => {
         let b = false;
-        expect(b).to.be(false);
+        expect(b).to.equal(false);
    }) 
 });
 
